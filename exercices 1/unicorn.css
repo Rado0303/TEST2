@@ -1,0 +1,192 @@
+/**nav
+{
+    display: inline-block;
+    justify-content: space-between;
+    font-family:courgette ,cursive;
+}
+les bordure utilisers pour la mise en forme finale du site
+**/
+.menu/*box de la navigation*/
+{
+    display: flex;
+    color: #FFF;
+    background-color: #C55394;
+    justify-content: space-between;
+    font-family: courgette,cursive;
+    width: 100%;
+    padding: 2px;
+    /*border: 2px solid gold;*/
+}
+.menulist
+{
+     display: flex;
+     justify-content: space-between;
+    width: 100%;
+    margin: 5px 10px ;
+    /*border: 2px solid blue;*/
+    
+}
+#first
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 5px 100px 5px 5px;
+    border-right: 20px;
+    /*border: 2px solid red;*/
+}
+#second
+{
+    display: flex block; 
+    justify-content: space-between;
+    width: 30%;
+    padding:5px 5px 5px 5px;
+    font-size: 13px;
+    text-align: right;
+    /*border: 2px solid green;*/
+}
+#third
+{
+    display: flex block ;
+    justify-content: space-between;
+    width: 30%;
+    padding: 5px 5px 5px 5px;
+    font-size: 13px;
+    text-align: right;
+    /*border: 2px solid grey;*/
+}
+#fourth
+{
+    display: flex block ;
+    justify-content: space-between;
+    width: 30%;
+    padding: 5px 5px 5px 5px;
+    font-size: 13px;
+    text-align: right;
+    /*border: 2px solid purple;*/
+}
+.tambabe/*le contenu generale*/
+{
+    background-image: url(img/background.png);
+    padding: 50px 0px;
+   /** border: 2px solid aquamarine;*/
+}
+
+.petit
+{
+    font-family: courgette,cursive;
+    color:#EB43A3 ;
+    margin: 20px 10px;
+}
+h1
+{
+    color: #C55394;
+    font-family: courgette,cursive;
+    font-size: 35px;
+    background-image: url(img/rainbow.png);
+    text-align: center;
+    padding: 30px 20px;
+    width: max-content;
+    margin: auto;   
+    /*border: 2px solid black;**/   
+}
+
+.contenu/*le contenu dudit my unicorn*/
+{
+    margin: 3% 20% 0 20%;
+    background-color:white ;
+    width: 80% auto;
+    box-shadow: 0px 0px 4px 4px gray;
+    border-radius: 7px;
+    padding: 10px;
+}
+.milahatra /* box image*/
+{
+    display: inline-flex;
+    width: 97%;
+    margin: 10px;
+    /**border: 2px solid brown;**/
+}
+figure
+{
+    padding: 0;
+    overflow: hidden;
+    width: 25%;
+    display: block;
+    margin: 3px;
+    position: relative;
+}
+img {
+    width: 100%;
+    padding: 0 auto 0 auto;
+    margin: 0;
+    display: block;
+}
+figcaption
+{
+    position:absolute;
+    bottom: 0px;
+    text-align: center;
+    background-color:black;
+    color: white;
+    opacity: 0.7;
+    width: 100%;
+    padding: 2px 0;
+}
+figure:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .3s;
+}
+.lalana/* boite pour google map et le submit*/
+{
+    display: inline-flex;
+    width: 100%;
+    /**border: 2px solid gold;**/
+}
+.boxmap/*une div meme si les width et height sont defini dans le lien,pour la mise en forme aussi*/
+{
+    width: 60%;
+    display: inline-block;
+    margin:10px;
+    /**border: 2px solid burlywood;**/
+}
+.boxsubmit
+{
+    width: 40%;
+    display: inline-block;
+    font-size: 13px;
+    padding: 14px;
+    margin-right: 10px;
+   /** border: 2px solid palevioletred;**/
+}
+
+.bouton
+{
+    background-color:#C55394 ;
+    color: #FFF;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:active
+{
+    background-color:#EB43A3 ;
+}
+p{
+    margin:auto 10px;
+}
+footer
+{
+  
+    /**border: 3px solid royalblue; pour pouvoir ameliorer la mise en page**/  
+    padding: 10px 10px;
+    text-align: right;
+    background-color: #C55394;
+    color: white;
+}
+
+/*les bordure sont en commemtaire pour voir la conception via les boite*/
