@@ -68,7 +68,8 @@ les bordure utilisers pour la mise en forme finale du site
 .tambabe/*le contenu generale*/
 {
     background-image: url(img/background.png);
-    padding: 50px 0px;
+    padding: 50px 50px;
+    margin: 10px 10px;
    /** border: 2px solid aquamarine;*/
 }
 
@@ -93,9 +94,9 @@ h1
 
 .contenu/*le contenu dudit my unicorn*/
 {
-    margin: 3% 20% 0 20%;
+    margin: 3% 20% 0 10%;
     background-color:white ;
-    width: 80% auto;
+    width: 80% ;
     box-shadow: 0px 0px 4px 4px gray;
     border-radius: 7px;
     padding: 10px;
@@ -118,7 +119,7 @@ figure
 }
 img {
     width: 100%;
-    padding: 0 auto 0 auto;
+    padding: 0  0 ;
     margin: 0;
     display: block;
 }
@@ -178,15 +179,14 @@ a:active
 }
 p{
     margin:auto 10px;
+    font-family: Arial,sans-serif;
 }
 footer
 {
-  
-    /**border: 3px solid royalblue; pour pouvoir ameliorer la mise en page**/  
+   /**border: 3px solid royalblue pour pouvoir ameliorer la mise en page**/  
     padding: 10px 10px;
     text-align: right;
     background-color: #C55394;
     color: white;
+    /*les bordure sont en commemtaire pour voir la conception via les boite*/
 }
-
-/*les bordure sont en commemtaire pour voir la conception via les boite*/
